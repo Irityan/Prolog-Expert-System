@@ -1,0 +1,13 @@
+#content {
+    width: 95%;
+    max-width: 1000px;
+    background-color: var(--default-background-color);
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#content > h2 {
+    text-decoration: underline;
+    text-align: center;
+}

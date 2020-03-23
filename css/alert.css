@@ -1,0 +1,53 @@
+.jconfirm-bg {
+    background-color: black!important;
+    opacity: 0.8!important;
+}
+
+.alert-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.alert-form input, .alert-form div{
+    margin-bottom: 15px;
+}
+
+.alert-form div {
+    display: flex;
+}
+
+.alert-form div select {
+    margin-right: 15px;
+}
+
+.alert-form select {
+    flex: 1;
+    max-width: 100%;
+}
+
+.alert-form table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    hyphens: auto;
+}
+
+.alert-form table thead {
+    background-color: var(--table-header-background-color);
+    color: white;
+}
+
+.alert-form table td, .alert-form table th {
+    border: 1px solid black;    
+    background-color: transparent;
+
+    text-align: center;
+    height: 50px;
+    
+    padding: 10px;
+}
+
+.alert-form table tbody {
+    color: black;
+}

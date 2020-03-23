@@ -1,0 +1,63 @@
+body {
+    --header-margin: 30px;
+}
+
+header {
+    animation: 0.5s ease-out 0s 1 slideDown;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(0deg, gray, Gainsboro);
+
+
+    text-align: center;
+
+    margin: var(--header-margin) 0;
+
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.8);
+
+    min-height: 75px;
+
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	
+}
+
+header li {
+	padding: 0;
+	margin: 0;
+}
+
+header button {
+    font-size: 130%;
+    text-align: center;
+	background-color: transparent;
+	width: 180px;
+	border: none;
+	cursor: pointer;
+    padding: 15px;
+    
+    box-sizing: border-box;
+}
+
+header button.selected {
+   background-color: #feda6a;
+}
+
+header button:hover:not(.selected) {
+    /*animation: 0.15s linear 0s 1 hoverTranspGray;*/
+    /*background-color: #71b7f0;*/
+    background-color: #d4d4dc;
+}

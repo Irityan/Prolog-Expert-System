@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "C:\\xampp\\htdocs\\rat"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/vsFiles": true
+		}
+	}
+}
